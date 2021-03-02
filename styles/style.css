@@ -1,0 +1,99 @@
+.logo{
+    width: 8rem !important;
+    height: 8rem !important;
+
+    max-width: 8rem;
+    max-height: 8rem;
+
+    min-width: 4rem;
+    min-height: 4rem;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+ /* do css on navigation bar  */
+div#navbarNavAltMarkup.navbar-collapse.collapse{
+    border: 1px solid #212529;
+    justify-content: center;
+    
+}
+
+div#navbarNavAltMarkup.navbar-collapse.collapse.show{
+    border: 1px solid #212529;
+}
+body{
+    background-color: rgb(246, 246, 40) !important;
+}
+
+
+.number{
+    font-weight: bold;
+    font-size: 18px;
+}
+.mydiv {
+    margin: 50px;
+    
+}
+.footerdiv {
+    margin: auto;
+    background-color: #212529;
+    display: flex;
+    justify-content: space-around;
+    padding: 0rem 1rem 0rem 1rem;
+    
+    
+}
+.footerdiv div a{
+    margin: auto;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: blanchedalmond;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out
+}
+.divMain{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+.mapDiv{
+    display: flex;
+    margin-top: 50px;
+
+    
+}
+
+.social-media{
+
+display: inline-block;
+padding: 1rem !important;
+
+
+}
+.imagediv{
+    text-align: center;
+}
+
+.imagediv img{
+    width: 75%;
+    margin: 2rem;
+
+}
+
+.card1:hover{
+    transform: scale(1.09);
+}
+
+.about{
+    width: 50%;
+    font-weight: 600;
+    margin: auto;
+    text-shadow:1px 1px .5px rgb(255, 198, 198);
+    margin-top:5rem ;
+    margin-bottom:5rem ;
+}
